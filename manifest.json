@@ -1,0 +1,71 @@
+{
+	"name": "tìm phòng, laptop cũ",
+	"author": "An Nguyen",
+	"description": "tìm phòng trọ, laptop cũ tại Đà Nẵng Việt Nam, trên chotot.com, ..",
+	"version": "1.0",
+	"permissions": ["contextMenus", "tabs", "clipboardRead", "storage"],
+	"icons": {
+		"16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+	},
+	"background": { "scripts": ["background.js"],"persistent": false },
+	"browser_action": {
+	   "default_icon": {
+			"19": "icon.png",
+			"38": "icon.png"
+		},
+		"default_title": "open link",
+		"default_popup": "brower_action.html"
+	},
+	"options_page": "options.html",
+	"options_ui": {
+		"chrome_style": true,
+		"page": "options.html"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"https://www.chotot.com/quang-nam-da-nang/mua-ban-may-tinh-laptop*",
+				"https://m.chotot.com/quang-nam-da-nang/mua-ban-may-tinh-laptop*", 
+				"https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-may-tinh-laptop*"				
+			], "js": [
+				"jquery.min.js", "sites/chotot.com/common.js", "sites/chotot.com/laptop.js"
+			], "run_at": "document_end"
+		},{
+			"matches": [
+				"https://www.chotot.com/quang-nam-da-nang/da-nang/thue-nha-dat*",
+				"https://www.chotot.com/quang-nam-da-nang/da-nang/thue-can-ho-chung-cu*",
+				"https://www.chotot.com/quang-nam-da-nang/da-nang/thue-van-phong-mat-bang-kinh-doanh*"
+			], "js": [
+				"jquery.min.js", "sites/chotot.com/common.js", "sites/chotot.com/nha-dat.js"
+			]
+		},{
+			"matches": [
+				"https://muaban.net/dien-thoai-di-dong-da-nang-l15-c62?min=1000&max=10000*"
+			], "js": [
+				"jquery.min.js", "sites/chotot.com/mobile-muaban.js"
+			]
+		},{
+			"matches": [
+				"https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-dien-thoai-di-dong*"
+			], "js": [
+				"jquery.min.js", "sites/chotot.com/mobile.js"
+			], "run_at": "document_end"
+		},{
+			"matches": [
+				"http://muabanhay.com/list/1300/dien-thoai-vien-thong?region_id=9*"
+			], "js": [
+				"jquery.min.js", "sites/chotot.com/mobile-muabanhay.js"
+			], "run_at": "document_end"
+		},{
+			"matches": [
+				"http://raoxyz.com/t/da-nang*dien-thoai-di-dong*"
+			], "js": [
+				"jquery.min.js", "sites/chotot.com/mobile-raoxyz.js"
+			], "run_at": "document_end"
+		}
+	],
+	"web_accessible_resources": [ "/*"],
+	"manifest_version": 2
+}

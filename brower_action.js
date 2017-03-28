@@ -21,7 +21,7 @@ var data = {
 		'http://fptshop.com.vn/may-tinh-xach-tay?tinh-nang=&muc-gia=tu-5-10-trieu&bo-xu-ly=intel-core-i3&ram=4-gb&sl=gia-thap-den-cao',
 		'https://vienthonga.vn/laptop?subcats=Y&features_hash=V20122.V20104.P12'
 	],
-	'timtu': ['https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-noi-ngoai-that-cay-canh/t%E1%BB%A7#'
+	'timtu': ['https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-noi-ngoai-that-cay-canh?q=t%E1%BB%A7&page=1&f=p'
 	],
 	'timtulanh':[
 		'https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban?q=t%E1%BB%A7+l%E1%BA%A1nh'
@@ -114,6 +114,7 @@ window.addEventListener('load', function(evt) {
 	
 	$('#tim').on('click', function(e) {
 		var paths = [
+			data.timtu[data.timtu.length - 1],
 			data.timdienthoai[data.timdienthoai.length - 2],
 			data.timdienthoai[data.timdienthoai.length - 1]
 		];

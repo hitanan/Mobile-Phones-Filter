@@ -64,6 +64,12 @@
 			], "js": [
 				"jquery.min.js", "sites/chotot.com/mobile-raoxyz.js"
 			], "run_at": "document_end"
+		},{
+			"matches": [
+				"http://192.168.40.117/trac/J15041/ticket/30*", "http://192.168.40.117/trac/J15041/ticket/*"
+			], "js": [
+				"jquery.min.js", "sites/trac.js"
+			], "run_at": "document_end"
 		}
 	],
 	"web_accessible_resources": [ "/*"],

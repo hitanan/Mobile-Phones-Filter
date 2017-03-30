@@ -1,5 +1,5 @@
 DEBUG = false;
-keywords= ['lock', 'htc', 'lg',  'blackberry', 'asus', 'zenphone', 'oppo', 'zen', 'sony', 'lenovo', 'xác', 'lumia', 'không vân tay', 'mvt', 'hư vân tay', 'iphone 4', 'sky', 'nokia', 'vertu', 'f1s'];
+keywords= ['lock', 'htc', 'lg',  'blackberry', 'asus', 'zenphone', 'oppo', 'zen', 'sony', 'lenovo', 'xác', 'lumia', 'không vân tay', 'mvt', 'mất vân tay', 'hư vân tay', 'iphone 4', 'sky', 'nokia', 'vertu', 'f1s'];
 mySmartphones= ['a5 2016', 'a7 2016', 'a8', 'j7 prime', 's6'];
 
 var MIN_VALUE = 1500000;
@@ -37,7 +37,7 @@ setTimeout(function() {
 				console.log($(this).find("a"));
 			}*/
 			var realPrice = parseInt(price, 10);
-			if (isMySmartphone(itemTitle) && realPrice && realPrice < MAX_MY_SMARTPHONE_VALUE) {
+			if (isMySmartphone(itemTitle) && realPrice && realPrice <= MAX_MY_SMARTPHONE_VALUE) {
 				alertMessage += itemTitle + ': ' + price + '\n';
 			}
 			$(this).find("a").attr('target', '_blank').attr('onclick', "this.target='_blank'");
@@ -47,13 +47,18 @@ setTimeout(function() {
 	
 	if (alertMessage) {
 		alert(alertMessage);
+		document.title = alertMessage;
+	} else {
+		document.title = "Alarm me";
 	}
+	
+	
 }, 700);
 
 
 setTimeout(function(){
    window.location.reload(1);
-}, 60*1000);
+}, 5*60*1000);
 
  
 function isHighPrice(price) {
@@ -81,3 +86,8 @@ function isMySmartphone(itemTitle) {
     }
     return false;
 }
+
+
+$( document ).ready(function() {
+    document.title = "Alarm me";
+});

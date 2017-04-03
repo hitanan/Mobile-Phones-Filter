@@ -1,5 +1,5 @@
 DEBUG = false;
-keywords= ['lock', 'htc', 'lg',  'blackberry', 'asus', 'zenphone', 'oppo', 'zen', 'sony', 'lenovo', 'xác', 'lumia', 'không vân tay', 'mvt', 'mất vân tay', 'hư vân tay', 'iphone 4', 'sky', 'nokia', 'vertu', 'f1s'];
+keywords= ['lock', 'htc', 'lg',  'blackberry', 'asus', 'zenphone', 'oppo', 'zen', 'sony', 'lenovo', 'xác', 'lumia', 'không vân tay', 'mvt', 'mất vân tay', 'hư vân tay', 'iphone 4', 'sky', 'nokia', 'vertu', 'f1s', 'iphone', 'ip', '5s'];
 mySmartphones= ['a5 2016', 'a7 2016', 'a8', 'j7 prime', 's6'];
 
 var MIN_VALUE = 1500000;

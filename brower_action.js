@@ -21,7 +21,7 @@ var data = {
 		'http://fptshop.com.vn/may-tinh-xach-tay?tinh-nang=&muc-gia=tu-5-10-trieu&bo-xu-ly=intel-core-i3&ram=4-gb&sl=gia-thap-den-cao',
 		'https://vienthonga.vn/laptop?subcats=Y&features_hash=V20122.V20104.P12'
 	],
-	'timtu': ['https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-noi-ngoai-that-cay-canh?q=t%E1%BB%A7&page=1&f=p'
+	'timtu': ['https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-noi-ngoai-that-cay-canh?q=t%E1%BB%A7'
 	],
 	'timtulanh':[
 		'https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban?q=t%E1%BB%A7+l%E1%BA%A1nh'
@@ -30,7 +30,7 @@ var data = {
 		'https://muaban.net/dien-thoai-di-dong-da-nang-l15-c62?min=1000&max=10000',
 		'http://muabanhay.com/list/1300/dien-thoai-vien-thong?region_id=9',
 		'http://raoxyz.com/t/da-nang*dien-thoai-di-dong',
-		'https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-dien-thoai-di-dong?page=1&f=p'
+		'https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-dien-thoai-di-dong'
 	]
 
 };

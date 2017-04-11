@@ -30,7 +30,7 @@ var data = {
 		'https://muaban.net/dien-thoai-di-dong-da-nang-l15-c62?min=1000&max=10000',
 		'http://muabanhay.com/list/1300/dien-thoai-vien-thong?region_id=9',
 		'http://raoxyz.com/t/da-nang*dien-thoai-di-dong',
-		'https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-dien-thoai-di-dong'
+		'https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-dien-thoai-di-dong?f=p'
 	]
 
 };

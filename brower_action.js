@@ -32,6 +32,7 @@ var data = {
 		'http://raoxyz.com/t/da-nang*dien-thoai-di-dong',
 		'https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-dien-thoai-di-dong?f=p'
 	]
+	
 
 };
 

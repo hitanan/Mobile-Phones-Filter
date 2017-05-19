@@ -115,7 +115,6 @@ window.addEventListener('load', function(evt) {
 	
 	$('#tim').on('click', function(e) {
 		var paths = [
-			data.timtu[data.timtu.length - 1],
 			data.timdienthoai[data.timdienthoai.length - 2],
 			data.timdienthoai[data.timdienthoai.length - 1]
 		];

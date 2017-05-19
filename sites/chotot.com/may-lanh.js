@@ -1,11 +1,9 @@
 DEBUG = true;
-// keywords= ['lock', 'xiaomi', 'xaomi', 'htc', 'lg',  'blackberry', 'bb', 'asus', 'meizu', 'huawei', 'zenphone', 'oppo', 'zen', 'sony', 'lenovo', 'xác', 'lumia', 'không vân tay', 'mvt', 'mất vân tay', 'hư vân tay', 'iphone 4', 'iphone', 'ip','sky', 'nokia', 'vertu', 'f1s',  '5s', 'z1', 'z2', 'z3', 'z5', 'g3', 'g4', 'j3', 'a3'];
-keywords= ['lock', 'blackberry', 'bb', 'asus', 'meizu', 'huawei','lenovo', 'xác', 'lumia', 'không vân tay', 'mvt', 'mất vân tay', 'hư vân tay', 'iphone 4', 'iphone', 'ip','sky', 'nokia', 'vertu', '5s', 'sony'];
-mySmartphones= ['j5', 'a5', 'a7', 'e7', 'j3'];
-
-var MIN_VALUE = 1000000;
-var MAX_VALUE = 2200000;
-var MAX_MY_SMARTPHONE_VALUE = 1500000;
+keywords= ['tủ lạnh', 'tủ mát', 'tủ đông', 'máy giặt', 'dakin', 'nagakawa', 'carrier', 'national'];
+mySmartphones= ['panasonic', 'lg'];
+var MIN_VALUE = 4000000;
+var MAX_VALUE = 7000000;
+var MAX_MY_SMARTPHONE_VALUE = 4000000;
 
 
 var LIST_QUERY = "#universal-main-container main .row.no-margin .col-md-8 div:nth-child(5) ul li";
@@ -46,6 +44,7 @@ setTimeout(function() {
 
 	});
 	
+	alertMessage = false;
 	if (alertMessage) {
 		alert(alertMessage);
 		document.title = alertMessage;

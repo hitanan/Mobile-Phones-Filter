@@ -66,9 +66,9 @@
 			], "run_at": "document_end"
 		},{
 			"matches": [
-				"http://192.168.40.117/trac/J15041/ticket/30*", "http://192.168.40.117/trac/J15041/ticket/*"
+				"https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-tu-lanh-may-lanh-may-giat*"
 			], "js": [
-				"jquery.min.js", "sites/trac.js"
+				"jquery.min.js", "sites/chotot.com/may-lanh.js"
 			], "run_at": "document_end"
 		}
 	],

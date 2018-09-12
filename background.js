@@ -10,9 +10,15 @@ function onClickHandler(info, tab) {
 	//console.log(info.menuItemId);
 };
 
+function onInstallHandler() {
+  chrome.alarms.create("myAlarm", {periodInMinutes: 0.1} );
+}
+chrome.alarms.onAlarm.addListener(function(alarm) {
+  console.log("Beep");
+});
 
 
-
+chrome.runtime.onInstalled.addListener(onInstallHandler);
 chrome.contextMenus.onClicked.addListener(onClickHandler);
 
 // Set up context menu tree at install time.
@@ -24,5 +30,6 @@ chrome.runtime.onInstalled.addListener(function() {
   });
 
 });
+
 
 

@@ -10,6 +10,12 @@ var ADS = [
 	{name: 'TiềN', src:'https://static.chotot.com.vn/imaginary/355f34729f1f5fdba4b74cbe9c647b3125c2b774/profile_avatar/668c830fff64c735df4ae1725a9dc37b66c7359b/thumbnail?width=32'},
 	{name: 'Minh Hằng', src:'https://static.chotot.com.vn/imaginary/6f0082739ac2ef5647b5171393bf77295d585641/profile_avatar/f2efe08dd479b40e61834d21b980d219e82f688d/thumbnail?width=32'},
 	{name: 'Lương', src:'https://static.chotot.com.vn/imaginary/c5cc4921a01cb8c59d0b75a00d651981f69af987/profile_avatar/1d49641e29bdffcedb5395466818be65d2b4601e/thumbnail?width=32'},
+	{name: 'Võ Hoàn Gaming SalE', src:'https://static.chotot.com.vn/imaginary/a3cf63fee5f208f313a54eca171a913239388293/profile_avatar/8c11f553b06b1bae43875ba2bf03dcd81e5cdd6a/thumbnail?width=32'},
+	{name: 'THANH BÌNH', src:'https://static.chotot.com.vn/imaginary/e9748359fbd7f22f7515e75a1fbacae4cbf1fa7d/profile_avatar/608e287057549caaf8277f03461d33c51b2ba51b/thumbnail?width=32'},
+	{name: 'NgỌc ÁNH Gaming STorT', src:'https://static.chotot.com.vn/imaginary/d3f593e5495153c08637564b04f73449271270b2/profile_avatar/e3e635cfb0b220311e9271b67c65c1ce3216d44d/thumbnail?width=32'},
+	{name: 'Như', src:'https://static.chotot.com.vn/imaginary/3cf0bd4cc44c81d094ca048cd6662543bcb5dce0/profile_avatar/2eddba0f970b1bf5cff62cbbae41eaf1d69e59eb/thumbnail?width=32'},
+	{name: 'Trang Kute', src:'https://static.chotot.com.vn/imaginary/a0d3ee9fba1b389ce519a1c4cb7f534680611c2e/profile_avatar/0ba090e767029297973192d4d303380264fb3ff1/thumbnail?width=32'},
+	{name: 'Lảo Đại', src:'https://static.chotot.com.vn/imaginary/fcdef694140e1d2e6887fe0ba1eea6ed3ee75063/profile_avatar/3086dc721c89c33309598185a01fd793481c7526/thumbnail?width=32'},
 
 	
 ];

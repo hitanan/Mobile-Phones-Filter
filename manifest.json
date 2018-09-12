@@ -3,13 +3,13 @@
 	"author": "An Nguyen",
 	"description": "tìm phòng trọ, laptop cũ tại Đà Nẵng Việt Nam, trên chotot.com, ..",
 	"version": "1.0",
-	"permissions": ["contextMenus", "tabs", "clipboardRead", "storage"],
+	"permissions": ["contextMenus", "tabs", "clipboardRead", "alarms", "storage", "notifications"],
 	"icons": {
 		"16": "icon.png",
         "48": "icon.png",
         "128": "icon.png"
 	},
-	"background": { "scripts": ["background.js"],"persistent": false },
+	"background": { "scripts": ["background.js"],"persistent": true },
 	"browser_action": {
 	   "default_icon": {
 			"19": "icon.png",
@@ -26,9 +26,9 @@
 	"content_scripts": [
 		{
 			"matches": [
-				"https://www.chotot.com/quang-nam-da-nang/mua-ban-may-tinh-laptop*",
-				"https://m.chotot.com/quang-nam-da-nang/mua-ban-may-tinh-laptop*", 
-				"https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-may-tinh-laptop*",			
+				"https://www.chotot.com/quang-nam-da-nang/mua-ban-laptop*",
+				"https://m.chotot.com/quang-nam-da-nang/mua-ban-laptop*", 
+				"https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-laptop*",			
 				"https://www.chotot.com/tp-ho-chi-minh/mua-ban-laptop*"				
 			], "js": [
 				"jquery.min.js", "sites/chotot.com/common.js", "sites/chotot.com/laptop.js"

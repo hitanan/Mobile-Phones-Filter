@@ -11,11 +11,12 @@ function onClickHandler(info, tab) {
 };
 
 function onInstallHandler() {
-  chrome.alarms.create("myAlarm", {periodInMinutes: 0.1} );
+  //chrome.alarms.create("myAlarm", {periodInMinutes: 0.1} );
 }
-chrome.alarms.onAlarm.addListener(function(alarm) {
-  console.log("Beep");
-});
+
+// chrome.alarms.onAlarm.addListener(function(alarm) {
+//   console.log("Beep");
+// });
 
 
 chrome.runtime.onInstalled.addListener(onInstallHandler);

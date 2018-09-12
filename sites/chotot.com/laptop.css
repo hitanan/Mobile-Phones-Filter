@@ -1,0 +1,7 @@
+#universal-main-container > div:first-child,
+header > div:first-child,
+.col-md-4 iframe,
+.ctGalleryAd,
+#universal-main-container main .row.no-margin .col-md-8 div:nth-child(7) > div > div:first-child {
+    display: none;
+}

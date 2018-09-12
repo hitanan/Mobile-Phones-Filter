@@ -4,7 +4,7 @@
 
 // The onClicked callback function.
 function onClickHandler(info, tab) {
-    var url = 'timraovat.com/search?q=' + info.selectionText);
+  var url = 'timraovat.com/search?q=' + info.selectionText;
 	chrome.tabs.create({url: url, active: true});
 	
 	//console.log(info.menuItemId);

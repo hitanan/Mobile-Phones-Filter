@@ -28,10 +28,13 @@
 			"matches": [
 				"https://www.chotot.com/quang-nam-da-nang/mua-ban-may-tinh-laptop*",
 				"https://m.chotot.com/quang-nam-da-nang/mua-ban-may-tinh-laptop*", 
-				"https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-may-tinh-laptop*"				
+				"https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-may-tinh-laptop*",			
+				"https://www.chotot.com/tp-ho-chi-minh/mua-ban-laptop*"				
 			], "js": [
 				"jquery.min.js", "sites/chotot.com/common.js", "sites/chotot.com/laptop.js"
-			], "run_at": "document_end"
+			], "css": [
+				"sites/chotot.com/laptop.css"
+			]
 		},{
 			"matches": [
 				"https://www.chotot.com/quang-nam-da-nang/da-nang/thue-nha-dat*",

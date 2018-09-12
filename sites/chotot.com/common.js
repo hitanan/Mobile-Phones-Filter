@@ -1,4 +1,4 @@
-DEBUG = true;
+DEBUG = false;
 // get options data
 
 dataObj = {
@@ -22,4 +22,3 @@ chrome.storage.local.get(dataObj, function(obj) {
 
 	
 });
-*/

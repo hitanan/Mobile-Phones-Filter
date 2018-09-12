@@ -9,16 +9,11 @@ var data = {
 		'http://chothuedanang.net/nha-dat-cho-thue-da-nang/-1/2/-1/-1.htm',
 		'https://muaban.net/cho-thue-nha-dat-da-nang-l15-c34?min=1000&max=3000&cr=1000',
 		'https://muaban.net/nha-hem-ngo-da-nang-l15-c3407?min=1000&max=3000',
-		'https://www.chotot.com/quang-nam-da-nang/da-nang/thue-nha-dat?max_monthly_rent=2&mre=2'
+		'https://nha.chotot.com/quang-nam-da-nang/da-nang/thue-nha-dat?max_monthly_rent=2'
 	],
 	'timlaptop': [
-		'https://www.chotot.com/tp-ho-chi-minh/mua-ban-laptop?f=p&page=1&q=7559',
-		'https://www.chotot.com/tp-ho-chi-minh/mua-ban-laptop?f=p&page=1&q=7567',
-		'https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-laptop/dell-br5-md16?f=p&price=2100000-8100000&page=1&pc_cpu=7&pc_vga=2,3,4&laptop_screen_size=5',
-		'https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-laptop?f=p&price=8100000-20700000&page=1&pc_cpu=7,8&pc_vga=2,3',
-		'https://www.chotot.com/tp-ho-chi-minh/mua-ban-laptop?f=p&pc_cpu=7%2C8&pc_vga=2%2C3&price=8100000-20700000',
-		'https://www.chotot.com/tp-ho-chi-minh/mua-ban-laptop/dell-br5-md16?f=p&price=2100000-8100000&page=1&pc_cpu=7&pc_vga=2,3,4&laptop_screen_size=5',
-		'https://www.chotot.com/tp-ho-chi-minh/mua-ban-laptop?laptop_screen_size=5&pc_cpu=7&pc_vga=3,4&page=1&f=p'
+		'https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-laptop?f=p&pc_cpu=7&pc_vga=3&laptop_screen_size=5',
+		'https://www.chotot.com/tp-ho-chi-minh/mua-ban-laptop?laptop_screen_size=5&pc_cpu=7&pc_vga=3&f=p'
 	],
 	'timlaptopnew': [
 		'https://www.thegioididong.com/laptop?p=duoi-8-trieu&o=gia-thap-den-cao',

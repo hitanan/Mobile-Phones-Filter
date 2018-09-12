@@ -9,6 +9,7 @@ var ADS = [
 	{name: 'Long AKA', src:'https://static.chotot.com.vn/imaginary/33dda3a2c2e030ce36e93903cef104632f7749d1/profile_avatar/86202eaa11a3395fb239e8812791cafe9b6b4e5a/thumbnail?width=32'},
 	{name: 'TiềN', src:'https://static.chotot.com.vn/imaginary/355f34729f1f5fdba4b74cbe9c647b3125c2b774/profile_avatar/668c830fff64c735df4ae1725a9dc37b66c7359b/thumbnail?width=32'},
 	{name: 'Minh Hằng', src:'https://static.chotot.com.vn/imaginary/6f0082739ac2ef5647b5171393bf77295d585641/profile_avatar/f2efe08dd479b40e61834d21b980d219e82f688d/thumbnail?width=32'},
+	{name: 'Lương', src:'https://static.chotot.com.vn/imaginary/c5cc4921a01cb8c59d0b75a00d651981f69af987/profile_avatar/1d49641e29bdffcedb5395466818be65d2b4601e/thumbnail?width=32'},
 
 	
 ];
@@ -46,7 +47,7 @@ setTimeout(function() {
 
 	});
 
-	$('.ctStickyAdsListing, #afscontainer1, a[href="https://www.chotot.com/cua-hang-dien-tu"], header, footer, h1[itemprop="name"]').remove();
+	$('.ctStickyAdsListing, #afscontainer1').remove();
 	
 }, 3000);
 

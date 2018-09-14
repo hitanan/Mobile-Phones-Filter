@@ -40,6 +40,7 @@ var ADS = [
 	{name: 'Juva', src:'https://static.chotot.com.vn/imaginary/b009ad7b93fffc7fecd6f8f426c94ecb9460a70b/profile_avatar/5155b69e165971094c4a881fce308efd21a7885c/thumbnail?width=32'},
 	{name: 'Khương Toàn', src:'https://static.chotot.com.vn/imaginary/9bd3d21fe776b16479d2bbe28d33920d836895ff/profile_avatar/05c158bacd4638aada5b09354161afa87c907190/thumbnail?width=32'},
 	{name: 'Mỹ Miều', src:'https://static.chotot.com.vn/imaginary/640b7acf31f5c1453b63559e3d8c4d6cbfd61655/profile_avatar/1066a0033a5eff732e582595691434c0cb6794da/thumbnail?width=32'},
+	{name: 'SAVE ME', src:'https://static.chotot.com.vn/imaginary/d398754bffd194cdb1c9ba869f25caf56c836bc0/profile_avatar/b2c0631482d4ff9f036e5056a877977c94264465/thumbnail?width=32'},
 	
 ];
 setTimeout(function() {

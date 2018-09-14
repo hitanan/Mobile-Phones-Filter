@@ -4,6 +4,6 @@ header > div:first-child,
 .ctGalleryAd,
 #universal-main-container main .row.no-margin .col-md-8 div:nth-child(7) > div > div:first-child,
 a[href="https://www.chotot.com/cua-hang-dien-tu"], header, footer, h1[itemprop="name"],
-.col-xs-12.hidden-sm.hidden-xs {
+.col-xs-12.hidden-sm.hidden-xs,.undefined {
     display: none !important;
 }

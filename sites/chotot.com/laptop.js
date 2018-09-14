@@ -22,6 +22,24 @@ var ADS = [
 	{name: 'Anh Bảy Chợ Gà', src:'https://static.chotot.com.vn/imaginary/748797f8f30e55570937b9f7b680b90dc79a9959/profile_avatar/111f096c72ad041eb5edb4f6f03df5e27cccfe2d/thumbnail?width=32'},
 	{name: 'Bánh Bèo 123', src:'https://static.chotot.com.vn/imaginary/13cd3420c1f788215662472a3fd60f3b4bd14b25/profile_avatar/948f151c3cc4b9933af4ee42704e9454552f9bcc/thumbnail?width=32'},
 	{name: 'Trung Hiếu', src:'https://static.chotot.com.vn/imaginary/8946d7758943696659d64bec48bf08f30979a44d/profile_avatar/c264f868c2eeb076b6e13e44f4ad2d50412e4d95/thumbnail?width=32'},
+	{name: 'phiêU', src:'https://static.chotot.com.vn/imaginary/507ce7991e7fb5ef443f446f8df66b29cb237a5b/profile_avatar/26b0c8c271dcd88b654f95d34e810871dd8d491b/thumbnail?width=32'},
+	{name: 'hoang hai', src:'https://static.chotot.com.vn/imaginary/05bfc83c41f97ae782eb0adf4259c7987fb67dcd/profile_avatar/db116712aa5ea719485e6f102185bc057cbd4015/thumbnail?width=32'},
+	{name: 'bóng mâY', src:'https://static.chotot.com.vn/imaginary/ccb6d91ca2e0684bc85662bca3789382d2e5e097/profile_avatar/f8c348aa0d7a38e2d113ddbf26184a2e054de204/thumbnail?width=32'},
+	{name: 'vô minH', src:'https://static.chotot.com.vn/imaginary/6f86b8688355ab9c2f3badd0ad3315d7458807a3/profile_avatar/f1dadfcf6d90d46d4c7c559a23e37c65458ac5f1/thumbnail?width=32'},
+	{name: 'chị 14', src:'https://static.chotot.com.vn/imaginary/e485196c25a3d01ea6d3b2650cd00f5f2255d437/profile_avatar/2a7e44b08432ad4a5cc713d20cc290f7fccb892a/thumbnail?width=32'},
+	{name: 'cường tỏi', src:'https://static.chotot.com.vn/imaginary/aff479ff1b496413dc65a82c5df39cfe8e919a8c/profile_avatar/1296848126ded1044694b0adfe3e45d72e844e71/thumbnail?width=32'},
+	{name: 'bánh ích ốm nhách', src:'https://static.chotot.com.vn/imaginary/1a918da89319e885e886ef6bf4f4d358aedcd33f/profile_avatar/6ac8febb97a9046c5fe09d9164782b17855573fa/thumbnail?width=32'},
+	{name: 'DESPACITO', src:'https://static.chotot.com.vn/imaginary/31fcacba59f6480017be54626664d8a59a7db7f6/profile_avatar/4f24ad8a15f64018101ec78dc1741e0cac515b41/thumbnail?width=32'},
+	{name: 'linH', src:'https://static.chotot.com.vn/imaginary/23c53dae2124dae26722ea0ff0471e64b625a9aa/profile_avatar/ef96e09ad7a67aa778b670c026af8f19a32d572e/thumbnail?width=32'},
+	{name: 'Hiền hỒ', src:'https://static.chotot.com.vn/imaginary/3e13cc3de915ce7f10b3b92f73775f29a661406e/profile_avatar/e6c8c72ea6e050dd1e4673d9fc74bd93d9216fdb/thumbnail?width=32'},
+	{name: 'Kim Chu', src:'https://static.chotot.com.vn/imaginary/6b018cbb1b2a23ffd9a71bb7a950f933a5f481b5/profile_avatar/3489aa0a90a6a7b338e38c2e4f0951620741e943/thumbnail?width=32'},
+	{name: 'Kim nhã', src:'https://static.chotot.com.vn/imaginary/193fc26dadf6647470fcb6b0c438ec6cc87af410/profile_avatar/6e70520fd586e02e0660197dbc7b8195fe70018d/thumbnail?width=32'},
+	{name: 'ngốC', src:'https://static.chotot.com.vn/imaginary/173295cd04189216d2209c50a3f00f59e00f374c/profile_avatar/96ad7f54609318e422ebb34136fbd9b65fdcff71/thumbnail?width=32'},
+	{name: 'Morphin', src:'https://static.chotot.com.vn/imaginary/a8fca5cdae58aa4a3d8335edc346fbbd9c5e1a36/profile_avatar/d3f71f7735ccfbcd72e38425590990a1f6a3ec69/thumbnail?width=32'},
+	{name: 'Tèo Em', src:'https://static.chotot.com.vn/imaginary/4752ce88a6e234329da02e12112642b451b50fcf/profile_avatar/ad9408ea49a5f49c595490db791cc966c82eae5e/thumbnail?width=32'},
+	{name: 'Juva', src:'https://static.chotot.com.vn/imaginary/b009ad7b93fffc7fecd6f8f426c94ecb9460a70b/profile_avatar/5155b69e165971094c4a881fce308efd21a7885c/thumbnail?width=32'},
+	{name: 'Khương Toàn', src:'https://static.chotot.com.vn/imaginary/9bd3d21fe776b16479d2bbe28d33920d836895ff/profile_avatar/05c158bacd4638aada5b09354161afa87c907190/thumbnail?width=32'},
+	{name: 'Mỹ Miều', src:'https://static.chotot.com.vn/imaginary/640b7acf31f5c1453b63559e3d8c4d6cbfd61655/profile_avatar/1066a0033a5eff732e582595691434c0cb6794da/thumbnail?width=32'},
 	
 ];
 setTimeout(function() {
@@ -59,8 +77,7 @@ setTimeout(function() {
 	});
 
 	$('.ctStickyAdsListing, #afscontainer1').remove();
-	alert(1);
-}, 3000);
+}, 2000);
 
 // $( document ).ready(function() {
 //     console.log( "ready!" );

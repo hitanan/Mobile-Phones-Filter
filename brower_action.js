@@ -12,8 +12,8 @@ var data = {
 		'https://nha.chotot.com/quang-nam-da-nang/da-nang/thue-nha-dat?max_monthly_rent=2'
 	],
 	'timlaptop': [
-		'https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-laptop?f=p&pc_cpu=7&pc_vga=3&laptop_screen_size=5',
-		'https://www.chotot.com/tp-ho-chi-minh/mua-ban-laptop?laptop_screen_size=5&pc_cpu=7&pc_vga=3&f=p'
+		'https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-laptop?f=p&pc_cpu=7,8&pc_vga=3&laptop_screen_size=5',
+		'https://www.chotot.com/tp-ho-chi-minh/mua-ban-laptop?laptop_screen_size=5&pc_cpu=7,8&pc_vga=3&f=p'
 	],
 	'timlaptopnew': [
 		'https://www.thegioididong.com/laptop?p=duoi-8-trieu&o=gia-thap-den-cao',

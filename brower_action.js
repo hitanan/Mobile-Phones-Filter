@@ -23,7 +23,9 @@ var data = {
 	'timtu': ['https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban-noi-ngoai-that-cay-canh?q=t%E1%BB%A7'
 	],
 	'timtulanh':[
-		'https://www.chotot.com/quang-nam-da-nang/da-nang/mua-ban?q=t%E1%BB%A7+l%E1%BA%A1nh'
+		'https://thepiratebay.org/browse/201/0/7/0',
+		'https://1337x.to/popular-movies',
+		'https://www.torrentdownloads.me/'
 	],
 	'timdienthoai':[
 		'https://muaban.net/dien-thoai-di-dong-da-nang-l15-c62?min=1000&max=10000',

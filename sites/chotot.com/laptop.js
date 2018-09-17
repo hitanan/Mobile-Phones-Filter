@@ -53,6 +53,11 @@ var ADS = [
 	{name: 'Quỳnh Như', src:'https://static.chotot.com.vn/imaginary/b1c825ec7c8146499a26e8b887be208209897182/profile_avatar/e2b0c126de75d4c103b9c4ea085ad426c3adfad5/thumbnail?width=32'},
 	{name: 'Cúc Trâm', src:'https://static.chotot.com.vn/imaginary/fad60793a0fdb3b5fbbed190ba4f3c5657b80708/profile_avatar/3a3db181c90876bab7974e2dbc94daadb7911510/thumbnail?width=32'},
 	{name: 'long gÀ', src:'https://static.chotot.com.vn/imaginary/8130c846be4e7e7db1b03a08e0da6d598020e1fc/profile_avatar/5ac4ae1d4c52ba6117ac0e4ff3c83ea7f0f35020/thumbnail?width=32'},
+	{name: 'minh nguyễn', src:'https://static.chotot.com.vn/imaginary/a0bacac29bd5bbc8a9ec9e2cf3bd61cb9b66e2fa/profile_avatar/4183a745297dfc6eaa180496fce9e20147d1b0e3/thumbnail?width=32'},
+	{name: 'Mỹ Doanh', src:'https://static.chotot.com.vn/imaginary/70fc585723ab14c6a2644aba6974adc55e0a319c/profile_avatar/91162cc5f74eac59f8c6e23e99a09d40ad2e75f1/thumbnail?width=32'},
+	{name: 'SinH', src:'https://static.chotot.com.vn/imaginary/e8c2e97970ece908e9af23de27c450d09c44cc17/profile_avatar/ea5a2c17136ebcc11ea4bd09053ea6c51ea2b7bb/thumbnail?width=32'},
+	{name: 'Dũng CòI', src:'https://static.chotot.com.vn/imaginary/9d400cf03ee7fee7ba7b7d7236ca3f541e8a4cfd/profile_avatar/54ff1753d267327fb26a73b1f1b00df590c257d7/thumbnail?width=32'},
+	{name: 'ĐẠT LonG', src:'https://static.chotot.com.vn/imaginary/df075c9bd4cd1b4627c69ff71c1e9f8be22f2186/profile_avatar/0bf7415b0c4806d9c2e36ac2733c0d35fbd7ba9b/thumbnail?width=32'},
 	
 ];
 setTimeout(function() {

@@ -85,6 +85,12 @@ var ADS = [
 	{name: 'tự tạI', src:'https://static.chotot.com.vn/imaginary/918d852473d0e66112e7fd575791561aa45480be/profile_avatar/c8513c9ea51051185b793193920c61297fb03a53/thumbnail?width=32'},
 	{name: 'cHương', src:'https://static.chotot.com.vn/imaginary/02281f434802aabdf12448f3a81c4c65a9d3c3e5/profile_avatar/c5af57634b016c36b1fb0a285fadbabe015c926d/thumbnail?width=32'},
 	{name: 'NgốK', src:'https://static.chotot.com.vn/imaginary/d0bf6c7efdd9f7fc9b71e797266760060c0cc3b8/profile_avatar/02b36313e66463b451511da0fccd557ed12bd220/thumbnail?width=32'},
+	{name: 'Lạc Phong', src:'https://static.chotot.com.vn/imaginary/63b1194aa9b06d7d670f6c06445ed99a79837b06/profile_avatar/b11eb4b1413699c36ec48db22c9f73432847c42d/thumbnail?width=322'},
+	{name: 'Chín Lụi', src:'https://static.chotot.com.vn/imaginary/116961d8311ca3240324bc6319ba33ab0cca556f/profile_avatar/9275046fa59d04b566c4ac548ca98d245527b342/thumbnail?width=32'},
+	{name: 'tà tà ăn cơm gÀ', src:'https://static.chotot.com.vn/imaginary/26adee00e518ad6362140a4582023cb7e677fea5/profile_avatar/8ec4c532ad5d4ee46a1b34988651048f05d3b6a0/thumbnail?width=32'},
+	{name: 'Dại Khờ Yêu NgườI', src:'https://static.chotot.com.vn/imaginary/d001479ed7b9802bbe4a8b0445c5115c3319d8a5/profile_avatar/b5d9cd82e2754a2f072b44adcc7d96d4e0ddcdd5/thumbnail?width=32'},
+	{name: 'Đừng như lonG', src:'https://static.chotot.com.vn/imaginary/3a5d6f2379ec637c820c3117227325c13d9cbf29/profile_avatar/aaf30d8b9078562b97e77cfb5a9913502919920e/thumbnail?width=32'},
+	{name: 'Ich PhÚ', src:'https://static.chotot.com.vn/imaginary/43561c71ecc66aba2a0a37cb9aceefef5fc84ed1/profile_avatar/8ebce236e79dd63316b999ffa8658fc954685abd/thumbnail?width=32'},
 	
 ];
 setTimeout(function() {

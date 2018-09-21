@@ -91,7 +91,6 @@ var ADS = [
 	{name: 'Dại Khờ Yêu NgườI', src:'https://static.chotot.com.vn/imaginary/d001479ed7b9802bbe4a8b0445c5115c3319d8a5/profile_avatar/b5d9cd82e2754a2f072b44adcc7d96d4e0ddcdd5/thumbnail?width=32'},
 	{name: 'Đừng như lonG', src:'https://static.chotot.com.vn/imaginary/3a5d6f2379ec637c820c3117227325c13d9cbf29/profile_avatar/aaf30d8b9078562b97e77cfb5a9913502919920e/thumbnail?width=32'},
 	{name: 'Ich PhÚ', src:'https://static.chotot.com.vn/imaginary/43561c71ecc66aba2a0a37cb9aceefef5fc84ed1/profile_avatar/8ebce236e79dd63316b999ffa8658fc954685abd/thumbnail?width=32'},
-	
 ];
 setTimeout(function() {
 	// $('#universal-main-container main .row.no-margin .col-md-8 div:nth-child(7) > div > div:first-child').remove();

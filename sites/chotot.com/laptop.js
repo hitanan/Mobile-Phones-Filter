@@ -91,6 +91,16 @@ var ADS = [
 	{name: 'Dại Khờ Yêu NgườI', src:'https://static.chotot.com.vn/imaginary/d001479ed7b9802bbe4a8b0445c5115c3319d8a5/profile_avatar/b5d9cd82e2754a2f072b44adcc7d96d4e0ddcdd5/thumbnail?width=32'},
 	{name: 'Đừng như lonG', src:'https://static.chotot.com.vn/imaginary/3a5d6f2379ec637c820c3117227325c13d9cbf29/profile_avatar/aaf30d8b9078562b97e77cfb5a9913502919920e/thumbnail?width=32'},
 	{name: 'Ich PhÚ', src:'https://static.chotot.com.vn/imaginary/43561c71ecc66aba2a0a37cb9aceefef5fc84ed1/profile_avatar/8ebce236e79dd63316b999ffa8658fc954685abd/thumbnail?width=32'},
+	{name: '2 ZiN', src:'https://static.chotot.com.vn/imaginary/183d6bef29d9da38796f1d62af2577243623bd52/profile_avatar/b90fd0c82bc99f2e7aa7d2021ad5ffcc5a14d2d1/thumbnail?width=32'},
+	{name: 'long akA', src:'https://static.chotot.com.vn/imaginary/bdf9d889f05da0856711281de30b18f8e8489d8c/profile_avatar/acc84da06dbae8a7f012a4f2f506d9e40d698442/thumbnail?width=32'},
+	{name: 'long akA', src:'https://static.chotot.com.vn/imaginary/075aa14a4f3719adc01cd2d3c5623f311ce1fcc0/profile_avatar/745b1f3f0d0c0fa51455c07659993c2f804ee3d6/thumbnail?width=32'},
+	{name: 'vu', src:'https://static.chotot.com.vn/imaginary/126819108c12cc80c8b388ea870306103caa0b9e/profile_avatar/802c9bac6ae215e9406669d024f50238ceed855f/thumbnail?width=32'},
+	{name: 'AnH HỒ', src:'https://static.chotot.com.vn/imaginary/9da19f7dde109fa502a9a341bfc7e0910cf5b140/profile_avatar/b38efe5cc20cae4d5323ab648befc6abbc9f7f1c/thumbnail?width=32'},
+	{name: 'sơN kÊ', src:'https://static.chotot.com.vn/imaginary/0a605ba3852f6fa47c81d289ca781b5c40597cbb/profile_avatar/fa140fdd83f7867949f623a057ebbac443d44073/thumbnail?width=32'},
+	{name: 'anH đườnG bănH', src:'https://static.chotot.com.vn/imaginary/ff1bddd3a1c0137741887121fb81dbdb51bbb5d1/profile_avatar/1b87430930c5b8901e136451ca3e79c7aa2d5df2/thumbnail?width=32'},
+	{name: 'trơN', src:'https://static.chotot.com.vn/imaginary/38fef6d941ee5ddcf44e40296d0f389182be62d3/profile_avatar/4e22bd6539a7d6608c74151d99baa51e035164bc/thumbnail?width=32'},
+	{name: 'Ngọc HÀ GaminG', src:'https://static.chotot.com.vn/imaginary/4a2ac1f8162be51c46baf8a9f753fc830cea4914/profile_avatar/9b44a65054ac7d1230aaed7566e5522bb99acbed/thumbnail?width=32'},
+	{name: 'hồng pháp', src:'https://static.chotot.com.vn/imaginary/8056ae8df151b5610605f9918f413e0d1d17d565/profile_avatar/9175becfec9738bd2470393d157236cdd5a76890/thumbnail?width=32'},
 ];
 setTimeout(function() {
 	// $('#universal-main-container main .row.no-margin .col-md-8 div:nth-child(7) > div > div:first-child').remove();
@@ -127,7 +137,7 @@ setTimeout(function() {
 	});
 
 	$('.ctStickyAdsListing, #afscontainer1').remove();
-}, 2000);
+}, 3000);
 
 // $( document ).ready(function() {
 //     console.log( "ready!" );
